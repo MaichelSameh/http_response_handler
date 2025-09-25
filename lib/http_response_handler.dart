@@ -4,5 +4,6 @@
 library;
 
 export 'src/http_response_handler_base.dart';
+export 'src/models/models.dart';
 
 // TODO: Export any libraries intended for clients of this package.
