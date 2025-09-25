@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http_response_handler/src/models/http_model.dart';
 
 class HttpResponse {
-  HttpModel beautifyJsonResponse({
+  static HttpModel beautifyJsonResponse({
     required String message,
     required int statusCode,
     required dynamic body,
